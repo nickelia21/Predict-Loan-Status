@@ -1,6 +1,7 @@
 #!"/Users/nickelia/PycharmProjects/Machine_Learning_In_Finance/PROJECTS/Mini Project 5/Flask_App/bin/python"
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3'
 __requires__ = 'pip==19.0.3'
+
 import re
 import sys
 from pkg_resources import load_entry_point

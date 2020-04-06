@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ff39c65-f4ca-485d-9b5c-75f4d563ecb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -56,7 +58,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586104297647</updated>
       <workItem from="1586104324006" duration="520000" />
-      <workItem from="1586111622323" duration="1571000" />
+      <workItem from="1586111622323" duration="7465000" />
     </task>
     <servers />
   </component>
@@ -99,5 +101,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586140226281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586140226281" />
+    <state x="436" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586114697499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="436" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586114697499" />
+    <state x="193" y="52" key="CommitChangelistDialog2" timestamp="1586194058439">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="193" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586194058439" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586140666469">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586140666469" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586140666468">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586140666468" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586140666467">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586140666467" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586140666469">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586140666469" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1586121553494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586121553494" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Flask_App$Flask_App.coverage" NAME="Flask_App Coverage Results" MODIFIED="1586140545514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
