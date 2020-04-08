@@ -128,8 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# IDEA Config
-.idea
+# IDEA and pyvenv Config
+.idea/
+pyvenv.cfg
 
 # Big data files
 /data/
