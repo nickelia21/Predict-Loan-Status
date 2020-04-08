@@ -2,41 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff39c65-f4ca-485d-9b5c-75f4d563ecb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/iptest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/iptest3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ipython" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ipython3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jsonschema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-bundlerextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-kernel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-kernelspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-migrate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-nbconvert" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-nbextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-notebook" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-qtconsole" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-serverextension" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-troubleshoot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/jupyter-trust" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/pygmentize" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/jupyter/kernels/python3/kernel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/jupyter/kernels/python3/logo-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/jupyter/kernels/python3/logo-64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/jupyter/nbextensions/jupyter-js-widgets/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/man/man1/ipython.1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/macho_dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/macho_find" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/macho_standalone" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyi-archive_viewer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyi-bindepend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyi-grab_version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyi-makespec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyi-set_version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/pyinstaller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LoanStats3a_securev1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LoanStats3b_securev1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LoanStats3c_securev1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LoanStats3d_securev1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sales.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +114,7 @@
       <workItem from="1586104324006" duration="520000" />
       <workItem from="1586111622323" duration="7662000" />
       <workItem from="1586235197219" duration="53000" />
-      <workItem from="1586274195198" duration="2607000" />
+      <workItem from="1586274195198" duration="4979000" />
     </task>
     <servers />
   </component>
@@ -156,32 +143,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="193" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586194058439" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586194261425">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586140666469" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586194261425" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586194261422">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586140666468" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1586194261422" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586194261411">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586140666467" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1586194261411" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586194261424">
-      <screen x="0" y="23" width="1440" height="808" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586140666469" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1586194261424" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1586275617919">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586278630486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586275617919" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586278630486" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1586194261425" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586278630485">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586278630485" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1586194261422" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586278630484">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586278630484" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1586194261411" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586278630486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586278630486" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1586194261424" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1586279481381">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586279481381" />
+    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586279021970">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1586279021970" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flask_App$Flask_App.coverage" NAME="Flask_App Coverage Results" MODIFIED="1586140545514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Flask_App$Flask_App.coverage" NAME="Flask_App Coverage Results" MODIFIED="1586277898062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

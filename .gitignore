@@ -130,3 +130,6 @@ dmypy.json
 
 # IDEA Config
 .idea
+
+# Big data files
+/data/

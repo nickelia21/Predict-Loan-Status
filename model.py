@@ -22,7 +22,8 @@ from keras.optimizers import Adam
 from keras.callbacks import EarlyStopping
 from keras.activations import relu, elu
 from keras.wrappers.scikit_learn import KerasClassifier
-#from xgboost import XGBClassifier
+
+# from xgboost import XGBClassifier
 
 warnings.filterwarnings('ignore')
 pd.options.display.float_format = '{:,.2f}'.format
@@ -32,15 +33,20 @@ pd.set_option('display.max_columns', 200)
 pd.set_option('max_columns', None)
 
 # Concatenate all CSVs into one DataFrame
-df1 = pd.read_csv("LoanStats3a_securev1.csv")
-df2 = pd.read_csv("LoanStats3b_securev1.csv")
-df3 = pd.read_csv("LoanStats3c_securev1.csv")
-df4 = pd.read_csv("LoanStats3d_securev1.csv")
+init_path = 'data/'
+df1 = pd.read_csv(init_path + 'LoanStats3a_securev1.csv')
+df2 = pd.read_csv(init_path + 'LoanStats3b_securev1.csv')
+df3 = pd.read_csv(init_path + 'LoanStats3c_securev1.csv')
+df4 = pd.read_csv(init_path + 'LoanStats3d_securev1.csv')
 df = pd.concat([df1, df2, df3, df4])
+df.reset_index(inplace=True)
 
 # Drop duplicates
-df.drop_duplicates(subset='id', inplace=True)
-df.drop_duplicates(subset='member_id', inplace=True)
+try:
+    df.drop_duplicates(subset='id', inplace=True)
+    df.drop_duplicates(subset='member_id', inplace=True)
+except:
+    print('Drop duplicates failed!')
 
 # Keep columns with sufficient data
 df = df[['loan_amnt', 'funded_amnt', 'funded_amnt_inv', 'term', 'int_rate', 'installment', 'grade', 'sub_grade',
